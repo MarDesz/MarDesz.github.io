@@ -295,5 +295,15 @@ header.masthead p {
     color: black;
     padding: 1vh;
 }
-#transparentback{
+#getstartedbutton{
+    margin: 1vh;
+}
+#iconcolor{
+    color: rgba(255, 226, 122, 1);
+}
+#box{
+    min-height: 10vh;
+}
+.orange{
+    color: rgba(255, 226, 122, 1);
 }
