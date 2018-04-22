@@ -307,3 +307,13 @@ header.masthead p {
 .orange{
     color: rgba(255, 226, 122, 1);
 }
+#transparentback{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2vh;
+    border-radius: 1vh;
+}
+#slogen{
+    font-weight: 600;
+    margin: 2vh;
+    color: #a366ff;
+}
