@@ -306,6 +306,7 @@ header.masthead p {
 }
 .orange{
     color: rgba(255, 226, 122, 1);
+    border-color: rgba(255, 226, 122, 1);
 }
 #transparentback{
     background-color: rgba(255, 255, 255, 0.7);
@@ -321,8 +322,12 @@ header.masthead p {
     height: 4rem;
 }
 #heightfix2{
-    height: 6rem;
+    height: 6.5rem;
 }
+#heightfix3{
+    height: 4rem;
+}
+
 .text-muted-dark{
-    color: slateblue;
+    color: rgba(255, 255, 255, 0.7);
 }
