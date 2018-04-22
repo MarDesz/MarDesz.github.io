@@ -314,6 +314,7 @@ header.masthead p {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 2vh;
     border-radius: 1vh;
+    border: #a366ff 1vh solid
 }
 #slogen{
     font-weight: 600;
