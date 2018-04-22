@@ -294,6 +294,8 @@ header.masthead p {
 #subtext{
     color: black;
     padding: 1vh;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 2rem;
 }
 #getstartedbutton{
     margin: 1vh;
