@@ -317,3 +317,12 @@ header.masthead p {
     margin: 2vh;
     color: #a366ff;
 }
+#heightfix{
+    height: 4rem;
+}
+#heightfix2{
+    height: 6rem;
+}
+.text-muted-dark{
+    color: slateblue;
+}
