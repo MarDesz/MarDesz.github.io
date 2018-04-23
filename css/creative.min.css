@@ -158,6 +158,15 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover;
 }
+header.masthead-classification {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -331,6 +340,34 @@ header.masthead p {
     height: 4rem;
 }
 
+#classification{
+  background-color: #f4d74b;
+}
+
 .text-muted-dark{
     color: rgba(255, 255, 255, 0.7);
+}
+#classnumberD{
+  font-size: 4rem;
+  color: red;
+}
+#classnumberC{
+  font-size: 4rem;
+  color: orange;
+}
+#classnumberB{
+  font-size: 4rem;
+  color: green;
+}
+#classnumberA{
+  font-size: 4rem;
+  color: purple;
+}
+.classbox{
+  background-color: lightblue;
+  padding: 1rem;
+  box-shadow: 0px 6px 4px -3px rgba(0,0,0,0.18);
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto
 }
