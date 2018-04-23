@@ -374,3 +374,6 @@ header.masthead p {
   background-color: #a366ff;
   color: #f4d74b;
 }
+table{
+  box-shadow: 3px 6px 4px -1px rgba(0,0,0,0.18);
+}
