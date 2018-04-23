@@ -362,8 +362,23 @@ header.masthead p {
 #classnumberA{
   font-size: 4rem;
 }
+#classnumberB2{
+  font-size: 4rem;
+  color: seagreen;
+}
+#classnumberA2{
+  font-size: 4rem;
+}
 .classbox{
   background-color: #a366ff;
+  padding: 1rem;
+  box-shadow: 0px 6px 4px -3px rgba(0,0,0,0.18);
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto
+}
+.classbox-light{
+  background-color: #f4d74b;
   padding: 1rem;
   box-shadow: 0px 6px 4px -3px rgba(0,0,0,0.18);
   width: 10rem;
@@ -376,4 +391,7 @@ header.masthead p {
 }
 table{
   box-shadow: 3px 6px 4px -1px rgba(0,0,0,0.18);
+}
+.goback{
+  margin-top: 2rem;
 }
