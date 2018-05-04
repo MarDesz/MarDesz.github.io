@@ -395,3 +395,32 @@ table{
 .goback{
   margin-top: 5rem;
 }
+.avatar{
+  height: 9rem;
+  width: 9rem;
+  object-fit: cover;
+  border-radius: 2rem;
+  margin: 1rem;
+  border: white 0.2rem solid;
+  box-shadow: 3px 6px 4px -1px rgba(0,0,0,0.18);
+
+}
+.infos{
+  margin: 1rem;
+}
+.categorymargin{
+  margin-top: 1rem;
+}
+.skillogo{
+  height: 5rem;
+  object-fit: cover;
+}
+.subcat{
+  color: black;
+  background-color: white;
+  width: 9rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
