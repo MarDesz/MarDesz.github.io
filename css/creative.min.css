@@ -436,7 +436,7 @@ table{
   padding: 0.6rem;
   box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
   -webkit-box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
-  -moz-box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
+  -moz-box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.17);
 
 }
 .companyname{
