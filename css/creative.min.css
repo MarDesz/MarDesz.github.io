@@ -424,3 +424,17 @@ table{
   padding: 0.3rem;
   border-radius: 1rem;
 }
+.jodesc{
+  font-size: 0.8rem;
+  margin: 0.3rem;
+  text-align: start
+}
+.jobdesccontainer{
+
+  margin: 1rem;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
+
+
+}
