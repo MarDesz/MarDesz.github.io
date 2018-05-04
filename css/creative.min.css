@@ -416,8 +416,8 @@ table{
   object-fit: cover;
 }
 .subcat{
-  color: black;
-  background-color: #fffef9;
+  color: #fffef9;
+  background-color: black;
   width: 9rem;
   margin-left: auto;
   margin-right: auto;
@@ -440,6 +440,8 @@ table{
 
 }
 .companyname{
-  background-color: #fffef9;
   padding: 0.4rem;
+}
+.bg-whiteish{
+  background-color: #fffef9;
 }
