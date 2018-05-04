@@ -445,3 +445,10 @@ table{
 .bg-whiteish{
   background-color: #fffef9;
 }
+.checked{
+  color: orange;
+}
+.stars{
+  text-align: left;
+  margin: 0;
+}
