@@ -38,7 +38,7 @@ h1{
   background-color: #cc2c2c !important;
 }
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: black !important;
 }
 .text-faded {
   color: rgba(204, 44, 44,0.7);
@@ -51,12 +51,12 @@ section {
 }
 ::-moz-selection {
   color: #fff;
-  background: #212529;
+  background: black;
   text-shadow: none;
 }
 ::selection {
   color: #fff;
-  background: #212529;
+  background: black;
   text-shadow: none;
 }
 img::selection {
@@ -90,7 +90,7 @@ img::-moz-selection {
   font-size: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: black;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
@@ -141,7 +141,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: black;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
@@ -216,7 +216,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(255, 254, 249,0.9);
+  background: #fffef9;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -310,14 +310,14 @@ header.masthead p {
     margin: 1vh;
 }
 #iconcolor{
-    color: rgba(255, 254, 249,1);
+    color: #fffef9;
 }
 #box{
     min-height: 10vh;
 }
 .orange{
-    color: rgba(255, 254, 249,1);
-    border-color: rgba(255, 254, 249,1);
+    color: #fffef9;
+    border-color: #fffef9;
 }
 #transparentback{
     background-color: rgba(204, 44, 44,0.7);
@@ -345,11 +345,11 @@ header.masthead p {
 }
 
 .text-muted-dark{
-    color: rgba(204, 44, 44,0.7);
+    color: rgba(255,255,255,0.7);
 }
 #classnumberD{
   font-size: 4rem;
-  color: white;
+  color: #fffef9;
 }
 #classnumberC{
   font-size: 4rem;
@@ -401,7 +401,7 @@ table{
   object-fit: cover;
   border-radius: 2rem;
   margin: 1rem;
-  border: white 0.2rem solid;
+  border: #fffef9 0.2rem solid;
   box-shadow: 3px 6px 4px -1px rgba(0,0,0,0.18);
 
 }
@@ -417,7 +417,7 @@ table{
 }
 .subcat{
   color: black;
-  background-color: white;
+  background-color: #fffef9;
   width: 9rem;
   margin-left: auto;
   margin-right: auto;
@@ -432,7 +432,7 @@ table{
 .jobdesccontainer{
 
   margin: 1rem;
-  background-color: white;
+  background-color: #fffef9;
   padding: 0.6rem;
   box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
   -webkit-box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
