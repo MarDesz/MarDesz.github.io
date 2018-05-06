@@ -74,6 +74,7 @@ img::-moz-selection {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+  vertical-align: middle;
 }
 #mainNav .navbar-brand {
   font-weight: 700;
@@ -405,6 +406,13 @@ table{
   box-shadow: 3px 6px 4px -1px rgba(0,0,0,0.18);
 
 }
+.avatarheader{
+  height: 1.5rem;
+  width: 1.5rem;
+  object-fit: cover;
+  border-radius: 2rem;
+  vertical-align: top;
+}
 .infos{
   margin: 1rem;
 }
@@ -456,4 +464,11 @@ table{
   margin: 0;
   border-radius: 1rem;
   background-color: seagreen;
+}
+.btn2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    vertical-align: top;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
