@@ -472,3 +472,10 @@ table{
     vertical-align: top;
     font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
+.dropdowncolor{
+  background-color: #cc2c2c;
+  color: white;
+}
+.dropdownitemcolor{
+  color: white;
+}
