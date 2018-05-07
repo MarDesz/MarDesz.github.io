@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="advertisements.html">Listings</a>
+                        <a class="nav-link js-scroll-trigger" href="">Listings</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -69,23 +69,11 @@
             </div>
         </div>
     </nav>
-
-    <header class="masthead-classification text-center text-primary d-flex" id="classification">
-        <div class="container my-auto">
-            <div class="row justify-content-center align-items-center">
-                <div class="col">
-                    <img class="img-rounded avatar" src="/img/profile.jpg">
-                    <h1 class="text-primary">Andras Demszky</h1>
-                    <h5 class="subcat">Developer</h5>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="bg-primary" id="info">
-        <div class="container text-white">
+    <section class="" id="info">
+        <div class="container text-primary">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Account Info</h2>
+                    <h2 class="section-heading">App Listings</h2>
                     <hr class="my-4 orange">
                 </div>
             </div>
@@ -95,30 +83,33 @@
                 <div class="col-lg-3 text-center">
                     <div class="card">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Name
-                                <h5 class="infos bg-whiteish">Andras Demszky</h5>
+                            <li class="list-group-item">Filter
                             </li>
-                            <li class="list-group-item bg-whiteish">Residence
-                                <h5 class="infos">Netherlands</h5>
+                            <li class="list-group-item bg-whiteish">Pay
+                                <div class="slidecontainer">
+                                    <input type="range" min="1" max="10000" value="50" class="slider" id="myRange">
+                                  </div>                            </li>
+                            <li class="list-group-item  bg-whiteish">Region
+                                    <select class="container selectpicker">
+                                        <optgroup label="Continents">
+                                            <option>Europe</option>
+                                            <option>North America</option>
+                                            <option>Asia</option>
+                                        </optgroup>
+                                        <optgroup label="Countries">
+                                                <option>Netherlands</option>
+                                                <option>Hungary</option>
+                                                <option>Germany</option>
+                                            </optgroup>
+                                        </select>
                             </li>
-                            <li class="list-group-item  bg-whiteish">Coding Skills
-                                <div class="row align-items-center infos">
-                                    <div class="col">
-                                        <img src="/img/apple-logo.png" class="skillogo">
-
-                                        <h5 class="infos">iOS</h5>
-                                    </div>
-                                </div>
-                                <div class="row align-items-center">
-                                    <div class="col">
-                                        <img src="/img/android.png" class="skillogo">
-
-                                        <h5 class="infos">Android</h5>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item bg-whiteish">Category
-                                <h3 class="mb-4 classbox rounded categorymargin" id="classnumberB">B</h3>
+                            <li class="list-group-item bg-whiteish">Platform
+                                    <select class="container selectpicker">
+                                            <option>iOS</option>
+                                            <option>Android</option>
+                                            <option>Both</option>
+                                          </select>
+                                          
                             </li>
                         </ul>
                     </div>
@@ -126,7 +117,7 @@
                 <div class="col-lg-9 text-center">
                     <div class="card">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-whiteish">Work Experience
+                            <li class="list-group-item bg-whiteish">
                                 <div class="row justify-content-start">
                                     <div class="col">
                                         <div class="jobdesccontainer">
@@ -147,62 +138,6 @@
                                             <p class="jodesc">CEO</p>
                                             <p class="jodesc">Project Management</p>
                                         </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="list-group-item bg-whiteish">Portfolio Link
-                                <div class="col">
-                                    <a class="btn btn-light btn-xl js-scroll-trigger infos" href="http://andrasdemszky.com/">andrasdemszky.com</a>
-                                </div>
-                            </li>
-                            <li class="list-group-item bg-whiteish">Reviews
-                                <div class="row justify-content-start">
-                                    <div class="col">
-                                        <div class="jobdesccontainer">
-                                            <p class="jodesc text-primary companyname">Barbara Palvin</p>
-                                            <div class="stars">
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                            </div>
-                                            <p class="jodesc">Did a great job. Also very handsome. Had sex with him.</p>
-                                        </div>
-                                        <div class="jobdesccontainer">
-                                            <p class="jodesc text-primary companyname">Daniel Marouf</p>
-                                            <div class="stars">
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star "></span>
-                                            </div>
-                                            <p class="jodesc">Was great, sucked his dick.</p>
-                                        </div>
-                                        <div class="jobdesccontainer">
-                                            <p class="jodesc text-primary companyname">Gergely Provits</p>
-                                            <div class="stars">
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star "></span>
-                                            </div>
-                                            <p class="jodesc">He would win penis model competitions.</p>
-                                        </div>
-                                        <div class="jobdesccontainer">
-                                            <p class="jodesc text-primary companyname">Viktor Lantos</p>
-                                            <div class="stars">
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                                <span class="fa fa-star checked"></span>
-                                            </div>
-                                            <p class="jodesc">Szia Deszka! Remelem jol vagy, es megy az egyetem. Puszi, Viktor Bacsi</p>
-                                        </div>
-                                        <a class="btn btn-light btn-xl sr-button" href="">More reviews</a>
                                     </div>
                                 </div>
                             </li>
