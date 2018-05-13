@@ -442,14 +442,16 @@ table{
   margin: 1rem;
   background-color: #fffef9;
   padding: 0.6rem;
-  box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
-  -webkit-box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
-  -moz-box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.17);
+  box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
 border: 0.05rem solid rgba(33, 37, 41, 0.1);
 border-radius: 0.2rem;
 
 }
 .companyname{
+  color: white;
+  font-weight: 600;
 }
 .bg-whiteish{
   background-color: #fffef9;
@@ -458,9 +460,9 @@ border-radius: 0.2rem;
   color: orange;
 }
 .stars{
-  box-shadow: 3px 3px 4px -1px rgba(0,0,0,0.18);
-  -webkit-box-shadow: 2px 2px 4px -1px rgba(0,0,0,0.18);
-  -moz-box-shadow: 2px 2px 4px -1px rgba(0,0,0,0.18);
+  box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
   width: 7rem;
   text-align: center;
   margin: 0;
@@ -511,7 +513,7 @@ border-radius: 0.2rem;
   appearance: none;
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #cc2c2c; /* Green background */
+  background: white; /* Green background */
   cursor: pointer; /* Cursor on hover */
   height: 25px;
   border-radius: 50%; 
@@ -520,8 +522,67 @@ border-radius: 0.2rem;
 .slider::-moz-range-thumb {
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #cc2c2c; /* Green background */
+  background: white; /* Green background */
   cursor: pointer; /* Cursor on hover */
   height: 25px;
   border-radius: 50%;
+}
+.gradientred{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cc1818+0,cc3f3f+60,cc5d5d+100 */
+background: #cc1818; /* Old browsers */
+background: -moz-linear-gradient(left, #cc1818 0%, #cc3f3f 60%, #cc5d5d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #cc1818 0%,#cc3f3f 60%,#cc5d5d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #cc1818 0%,#cc3f3f 60%,#cc5d5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc1818', endColorstr='#cc5d5d',GradientType=1 ); /* IE6-9 */
+color: rgb(231, 231, 231);
+border: 0;
+border-radius: 0;
+transition: 600ms;
+}
+.gradientred:hover{
+  transition: 600ms;
+  background: #cc1818; /* Old browsers */
+  background: -moz-linear-gradient(left, #cc1818 0%, #cc1818 60%, #cc1818 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #cc1818 0%,#cc1818 60%,#cc1818 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #cc1818 0%,#cc1818 60%,#cc1818 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.gradientred2{
+background-color: #6d1212; 
+color: white;
+border: 0;
+border-radius: 0;
+padding: 1rem;
+}
+.margin-top-0{
+  margin-top: 0;
+}
+.padding-top-0{
+  padding-top: 0;
+}
+.bg-trans{
+  background-color: rgba(0,0,0,0)
+}
+.margin-1-rem{
+  margin: 2rem;
+  margin-top: 0;
+}.bg-grey{
+  background-color: #a51717;
+}
+.border-0{
+  border: 0;
+}
+.top1{
+  margin-top: 1rem;
+}
+.align-left{
+  text-align: left;
+  margin-left: 2.3rem;
+  margin-right: 2.3rem;
+  padding: 0.5rem;
+  background-color: #6d1212;
+}
+.shadow{
+  box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.18);
 }
